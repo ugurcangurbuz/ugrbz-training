@@ -1,18 +1,7 @@
+import { hide_req } from '../support/hide-fetch-req.js'
+import { uncaught_exceptions } from '../support/uncaught-exception.js'
+
 describe('Check Sections', () => {
-
-    // Hide Uncaught Exceptions
-    Cypress.on('uncaught:exception', (err, runnable) => {
-        return false
-    })
-
-    // Hide Command Request Logs
-    const app = window.top;
-    if (!app.document.head.querySelector('[data-hide-command-log-request]')) {
-        const style = app.document.createElement('style');
-        style.innerHTML = '.command-name-request, .command-name-xhr { display: none }';
-        style.setAttribute('data-hide-command-log-request', '');
-        app.document.head.appendChild(style);
-    }
 
     it('Check Contact Us Form', () => {
         cy.visit('https://thetraininghub.com')
@@ -27,6 +16,5 @@ describe('Check Sections', () => {
         cy.get('#contact_form_email').type('testmail@centronit.com')
         cy.get('#contact_form_overview').type('Test Further Information')
     })
-
 
 })

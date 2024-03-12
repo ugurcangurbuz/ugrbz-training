@@ -1,19 +1,9 @@
+import { hide_req } from '../support/hide-fetch-req.js'
+import { uncaught_exceptions } from '../support/uncaught-exception.js'
+
 describe('Check Sections', () => {
-  // Hide Uncaught Exceptions
-  Cypress.on('uncaught:exception', (err, runnable) => {
-    return false
-  })
 
-  // Hide Command Request Logs
-  const app = window.top;
-  if (!app.document.head.querySelector('[data-hide-command-log-request]')) {
-    const style = app.document.createElement('style');
-    style.innerHTML = '.command-name-request, .command-name-xhr { display: none }';
-    style.setAttribute('data-hide-command-log-request', '');
-    app.document.head.appendChild(style);
-  }
-
-  const webdata = require('../fixtures/data.json'); 
+  const webdata = require('../fixtures/data.json');
 
   webdata.forEach(sectors => {
     it(sectors.name, () => {
