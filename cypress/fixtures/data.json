@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Adult Care",
+        "website": "https://theadultcaretraininghub.com/",
+        "text":"Expertly created training specific to Adult Care. Online, Virtual & Face to Face"
+    },
+    {
+        "name": "Childminders",
+        "website": "https://thechildmindertraininghub.com/",
+        "text":"Expertly created training specific to Childminders. Online, Virtual & Face to Face"
+    },
+    {
+        "name": "Children Services",
+        "website": "https://thechildrenservicestraininghub.com/",
+        "text":"Expertly created training specific to Children Services. Online, Virtual & Face to Face"
+    },
+    {
+        "name": "Children's Home",
+        "website": "https://thechildrenshometraininghub.com/",
+        "text":"Expertly created training specific to Children's Homes. Online, Virtual & Face to Face"
+    },
+    {
+        "name": "Early Years",
+        "website": "https://theearlyyearstraininghub.com/",
+        "text":"Expertly created training specific to Early Years. Online, Virtual & Face to Face"
+    },
+    {
+        "name": "Education",
+        "website": "https://theeducationtraininghub.com/",
+        "text":"Expertly created training specific to Primary and Secondary Education. Online, Virtual & Face to Face"
+    },
+    {
+        "name": "Foster Care",
+        "website": "https://thefostercaretraininghub.com/",
+        "text":"Expertly created training specific to Foster Care. Online, Virtual & Face to Face"
+    },
+    {
+        "name": "Leaving Care",
+        "website": "https://theleavingcaretraininghub.com/",
+        "text":"Expertly created training specific to Leaving Care. Online, Virtual & Face to Face"
+    },
+    {
+        "name": "Social Worker",
+        "website": "https://thesocialworkertraininghub.com/",
+        "text":"Expertly created training specific to Social Work. Online, Virtual & Face to Face"
+    }
+]
